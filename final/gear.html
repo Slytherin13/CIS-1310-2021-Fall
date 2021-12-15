@@ -1,89 +1,132 @@
 <!DOCTYPE html>
 <html>
 <!--Isaac Linder
-		CIS 1310 - WK3
+		CIS 1310
 		
-		Chapter 2 Assignment
-		JavaJam
+		SystemPlasma-Final Project
 		
-		index.html
+		
+		gear.html
 	-->
 
 <head>
     <title>System Plasma Java Datapacks</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        #table {
-            font-family: Arial, Helvetica, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-            color: black
-        }
-
-        #table td,
-        #table th {
-            border: 1px solid rgb(255, 255, 255);
-            padding: 8px;
-        }
-
-        #table tr:nth-child(even) {
-            background-color: #eeeaea;
-        }
-
-        #table tr:nth-child(odd) {
-            background-color: #62bfcf;
-        }
-
-        #table tr:hover {
-            background-color: rgb(235, 234, 188);
-        }
-
-        #table th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: #04b4d3;
-            color: white;
-        }
-    </style>
+   
 </head>
 
-<body>
+<header>
+    <h1>System Plasma Java Datapacks
+</header>
+<nav>
+    <button class="button"><a herf="gear.html"><u>Home</u></a></button>
 
+    <div class="dropdown">
+        <button class="button">SPGear⬇</button>
+        <div class="dropdown-content">
+            <a href="gear.html"><u>Info</u></a>
+            <a href="artifacts.html"><u>Artifacts</u></a>
+            <a href="gear-crafting.html"><u>Crafting</u></a>
+        </div>
+    </div>
+
+    <div class="dropdown">
+        <button class="button">How To...⬇</button>
+        <div class="dropdown-content">
+            <a href="get-items.html"><u>Get Items</u></a>
+            <a href="forge.html"><u>Use Artifact Forge</u></a>
+            <a href="luck.html"><u>Use "Lucky" Items</u></a>
+        </div>
+    </div>
+    <button class="button"><a herf="files.html"><u>PMC Pages & Files</u></a></button>
+    <button class="button"><a herf="https://discord.io/systemplasma"><u>Discord</u></a></button>
+</nav>
+<main>
+   
+</main>
+
+
+<body>
+   
     <table id="table">
         <tr>
-            <th>Company</th>
-            <th>Contact</th>
-            <th>Country</th>
+            <th>Armor Set Name</th>
+            <th>Pros</th>
+            <th>Cons</th>
         </tr>
         <tr>
-            <td>Alfreds Futterkiste</td>
-            <td>Maria Anders</td>
-            <td>Germany</td>
+            <td>Normal Golden Armor</td>
+            <td>Speed II<br>Jump Boost II</td>
+            <td>Weakness II</td>
         </tr>
         <tr>
-            <td>Berglunds snabbköp</td>
-            <td>Christina Berglund</td>
-            <td>Sweden</td>
+            <td>Normal Chainmail Armor</td>
+            <td>Luck I</td>
+            <td>Weakness I<br>Slowness II</td>
         </tr>
         <tr>
-            <td>Centro comercial Moctezuma</td>
-            <td>Francisco Chang</td>
-            <td>Mexico</td>
+            <td>Miner(Leather Set)</td>
+            <td>Haste III<br>Fire Resistance<br> Speed II</td>
+            <td>Bad Luck II</td>
         </tr>
         <tr>
+            <td>Diver(<strong>Unbreakable </strong>Leather Set)</td>
+            <td><em>Protection II</em> Enchantment<br>
+                <em>Projectile Protection II</em> Enchantment<br>
+                <br>
+                <strong>When Underwater:</strong><br>
+                Dolphin's Grace I<br>
+                Conduit Power IV (Haste IV + Water Breathing + Night Vision)<br></td>
+            <td>Must be under 2 blocks of water to activate</td>
+        </tr>
+        <tr>
+            <td>Fairy(Leather Set)</td>
+            <td>Speed III<br>
+                Night Vision<br>
+                Jump Boost II<br>
+                +0 &#10084;(2 rows of hearts)</td>
+            <td>Mining Fatuige I<br>
+                Weakness X</td>
+        </tr>
+        <tr>
+            <td>Adventurer</td>
+            <td><em>Protection III</em> Enchantment<br>
+                <em>Fire Protection III</em> Enchantment<br>
+                <em>Blast Protection III</em> Enchantment<br>
+                <em>Projectile Protection III</em> Enchantment<br>
+                <em>Unbreaking III</em> Enchantment<br>
+                <br>
+                Speed III<br>
+                Jump Boost II<br>
+                Strength I<br>
+                Night Vision</td>
+            <td>Hunger IV<br>
+                 -60% Max &#10084;</td>
+            
+        </tr>
+        <tr>
+            <td>Goblin(Leather Set)</td>
+            <td>Luck III<br>Hero of the Village II</td>
+            <td>Slowness II<br><strong>CAN NOT JUMP(Slow Falling CLV & Jump Boost CLV)</strong></td>
+        </tr>
+        <tr>
+            <td>Crystal(Diamond Set)</td>
+            <td>Resistance II<br>Strength II<br>+30 &#10084;(3 rows of hearts)</td>
+            <td>Slowness III</td>
+        </tr>
+        <tr>
+            <td>Dragon(Netherite Set)</td>
+            <td><em>Thorns III</em> Enchantment<br>
+                <br>
+                Strength II<br>
+                Fire Resistance<br>
+                +50 &#10084;(5 rows of hearts)</td>
+            <td>-65% Movement Speed</td>
+        </tr>
+        <tr>
+    </table>    
+            
 
-            <header>
-                <h1>System Plasma Java Datapacks
-            </header>
-            <nav>
-                <a href="index.html">Home</a>&nbsp; <a href="gear.html">SPGear Info</a>&nbsp;
-                <a href="jobs.html">SPScrolls Info</a>&nbsp; <a href="menu.html">Downloads</a>&nbsp; <a
-                    href="jobs.html">Discord</a>
-            </nav>
-            <main>
-
-            </main>
             <footer>
                 <small>
                     <i>

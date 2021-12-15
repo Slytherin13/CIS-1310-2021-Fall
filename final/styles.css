@@ -1,0 +1,94 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /* width: 50%; */
+}
+
+    .paragraph{
+      margin: 10px 0;      
+      padding-right: 10%;
+      padding-left: 10%;
+      padding-top: 2%;
+      padding-bottom: 2%;
+      font-size: medium;
+      text-indent: 2%;
+      text-align: justify;
+      
+    /* border: 1px solid #999; */
+      
+    }
+    .button {
+       /* background-color: #fefeff; */
+       background-color: #fefeff;
+        color: rgb(33, 52, 158);
+        padding: 8px;
+        font-size: 14px;
+        border: none;
+      }
+
+       .dropdown {
+           position: relative;
+           display: inline-block;
+       }
+
+       .dropdown-content {
+           display: none;
+           position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+          z-index: 1;
+      }
+
+       .dropdown-content a {
+           color: black;
+           padding: 12px 16px;
+          text-decoration: none;
+          display: block;
+      }
+
+       .dropdown-content a:hover {
+          background-color: #ddd;
+       }
+
+      .dropdown:hover .dropdown-content {
+          display: block;
+      }
+
+     .dropdown:hover .dropbtn {
+         background-color: #52b8b4;
+     }
+
+      #table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+            color: black
+        }
+
+        #table td,
+        #table th {
+            border: 1px solid rgb(255, 255, 255);
+            padding: 8px;
+        }
+
+        #table tr:nth-child(even) {
+            background-color: #eeeaea;
+        }
+
+        #table tr:nth-child(odd) {
+            background-color: #62bfcf;
+        }
+
+        #table tr:hover {
+            background-color: rgb(235, 234, 188);
+        }
+
+        #table th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: #04b4d3;
+            color: white;
+        }
