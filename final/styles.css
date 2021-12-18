@@ -10,11 +10,25 @@ p, h1{
     color: white;
 }
 
-body {
+
+@media screen and (min-width: 1000px) {
+  body {
         background-image: url("./image/oriental-tiles.png");
         background-repeat: repeat;
         /* background-size: 1600px 840px; */
     }
+}
+
+@media screen and (max-width: 999px) {
+  body {
+        background-image: url("./image/double-bubble-dark.png");
+        background-repeat: repeat;        
+    }
+}
+
+
+
+
 
 /* Style buttons */
 .dwnldbtn {
