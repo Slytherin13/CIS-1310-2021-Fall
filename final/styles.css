@@ -19,8 +19,9 @@
     p, h1{
     color: white;
 }
-.link{
-        color: blue
+
+    .link{
+        color: lightblue
     }
 }
 
@@ -33,7 +34,7 @@
     color: black;
 }
 .link{
-        color: lightblue
+        color: blue
     }
 }
 
