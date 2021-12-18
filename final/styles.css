@@ -6,9 +6,7 @@
 }
 
 
-p, h1{
-    color: white;
-}
+
 
 
 @media screen and (min-width: 1000px) {
@@ -16,6 +14,13 @@ p, h1{
         background-image: url("./image/oriental-tiles.png");
         background-repeat: repeat;
         /* background-size: 1600px 840px; */
+        
+    }
+    p, h1{
+    color: white;
+}
+.link{
+        color: blue
     }
 }
 
@@ -23,6 +28,12 @@ p, h1{
   body {
         background-image: url("./image/ripples.png");
         background-repeat: repeat;        
+    }
+    p, h1{
+    color: black;
+}
+.link{
+        color: lightblue
     }
 }
 
@@ -49,9 +60,7 @@ p, h1{
       text-align: center;      
     }
 
-    .link{
-        color: lightblue
-    }
+    
 
 
 
