@@ -5,6 +5,7 @@
   /* width: 50%; */
 }
 
+
 p, h1{
     color: white;
 }
@@ -37,6 +38,9 @@ body {
     .link{
         color: lightblue
     }
+
+
+
 
     .button {
        /* background-color: #fefeff; */
