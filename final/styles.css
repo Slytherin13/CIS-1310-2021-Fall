@@ -21,7 +21,7 @@ p, h1{
 
 @media screen and (max-width: 999px) {
   body {
-        background-image: url("./image/hotel-wallpaper-black.png");
+        background-image: url("./image/ripples.png");
         background-repeat: repeat;        
     }
 }
